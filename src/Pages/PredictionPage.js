@@ -99,11 +99,11 @@ const PredictionPage = () => {
         }
         const state_cap = STATE_CAPACITY_LIMITS[key] || 500;
         const final_allowed_capacity = Math.min(state_cap, max_possible_capacity);
-        console.log(`State: ${state}`);
-        console.log(`Roof area: ${area_in_sqm} sqm`);
-        console.log(`State cap: ${state_cap} kW`);
-        console.log(`Max possible capacity: ${max_possible_capacity} kW`);
-        console.log(`Final allowed capacity: ${final_allowed_capacity} kW`);
+        // console.log(`State: ${state}`);
+        // console.log(`Roof area: ${area_in_sqm} sqm`);
+        // console.log(`State cap: ${state_cap} kW`);
+        // console.log(`Max possible capacity: ${max_possible_capacity} kW`);
+        // console.log(`Final allowed capacity: ${final_allowed_capacity} kW`);
       } else {
         console.log('No state detected in API response.');
       }

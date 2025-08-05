@@ -30,9 +30,9 @@ function AuthCallback() {
         }
 
         const session = data.session;
-        console.log("Authentication successful");
-        console.log("Access token:", session.access_token);
-        console.log("User info:", session.user);
+        // console.log("Authentication successful");
+        // console.log("Access token:", session.access_token);
+        // console.log("User info:", session.user);
 
         // Check if this is a social login or email signup
         const isSocialLogin = session.user?.app_metadata?.provider && 

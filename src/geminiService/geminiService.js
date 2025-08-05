@@ -28,12 +28,12 @@ export const fetchGeminiResponse = async (userMessage) => {
 
     const geminiReply =
       response.data.candidates?.[0]?.content?.parts?.[0]?.text || "No response";
-    console.log("Calling Gemini with key:", apiKey);
-    console.log("User message:", userMessage);
+    // console.log("Calling Gemini with key:", apiKey);
+    // console.log("User message:", userMessage);
   
     return geminiReply;
   } catch (error) {
-    console.error("Gemini API Error:", error);
+    // console.error("Gemini API Error:", error);
     return "Sorry, there was an error connecting to Gemini.";
   }
 };

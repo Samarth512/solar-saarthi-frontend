@@ -23,8 +23,8 @@ const ChatBotPage = () => {
       const botReply = await fetchGeminiResponse(input);
       setMessages((prev) => [...prev, { from: "bot", text: botReply }]);
     } catch (err) {
-      console.error("Gemini error:", err);
-      console.log("ENV vars:", import.meta.env);
+      // console.error("Gemini error:", err);
+      // console.log("ENV vars:", import.meta.env);
       setMessages((prev) => [
         ...prev,
         { from: "bot", text: "Sorry, there was an error connecting to Gemini." },

@@ -364,14 +364,14 @@ const TariffPage = () => {
       newBill,
     });
     // Console logs for debugging
-    console.log('State:', state);
-    console.log('Tariff info:', tariffInfo);
-    console.log('Units consumed:', consumed);
-    console.log('Monthly generation:', produced);
-    console.log('Original bill:', originalBill);
-    console.log('New bill:', newBill);
-    console.log('Bill savings:', billSavings);
-    console.log('Export income:', exportIncome);
+    // console.log('State:', state);
+    // console.log('Tariff info:', tariffInfo);
+    // console.log('Units consumed:', consumed);
+    // console.log('Monthly generation:', produced);
+    // console.log('Original bill:', originalBill);
+    // console.log('New bill:', newBill);
+    // console.log('Bill savings:', billSavings);
+    // console.log('Export income:', exportIncome);
     if (isHistorical) console.log('Selected month:', MONTHS[selectedMonth]);
   };
 
